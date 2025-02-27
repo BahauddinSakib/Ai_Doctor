@@ -8,12 +8,12 @@ import pickle
 app = Flask(__name__)
 
 #load database
-sym_des = pd.read_csv("datasets\symtoms_df.csv")  # Absolute path
-precautions = pd.read_csv("datasets\precautions_df.csv")
-workout = pd.read_csv("datasets\workout_df.csv")
-description = pd.read_csv("datasets\description.csv")
-medications = pd.read_csv("datasets\medications.csv")
-diets = pd.read_csv("datasets\diets.csv")
+sym_des = pd.read_csv("datasets/symtoms_df.csv")  # Absolute path
+precautions = pd.read_csv("datasets/precautions_df.csv")
+workout = pd.read_csv("datasets/workout_df.csv")
+description = pd.read_csv("datasets/description.csv")
+medications = pd.read_csv("datasets/medications.csv")
+diets = pd.read_csv("datasets/diets.csv")
 
 #load model
 import os
