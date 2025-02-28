@@ -1,5 +1,4 @@
-# Ai_Doctor
-The "AI Doctor" application provides a user-friendly interface for predicting diseases based on symptoms. It leverages a Support Vector Classifier (SVC) model, trained on a dataset of symptoms and corresponding diseases, to make predictions.
+#The "AI Doctor" application provides a user-friendly interface for predicting diseases based on symptoms. It leverages a Support Vector Classifier (SVC) model, trained on a dataset of symptoms and corresponding diseases, to make predictions.
 
 Key Features:
 
